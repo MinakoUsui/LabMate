@@ -1,2 +1,6 @@
 streamlit
 openai>=1.0.0
+streamlit
+pandas
+numpy
+# add any others your app uses
