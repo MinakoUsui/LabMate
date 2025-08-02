@@ -2,6 +2,8 @@ from addgene_fetcher import fetch_plasmid_info
 import streamlit as st
 import openai
 
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+
 # --- page setup ---
 st.set_page_config(page_title="LabMate", layout="wide")
 st.title("🧪 LabMate: AI Copilot for Wet Lab Protocols")
